@@ -5,6 +5,8 @@ export PLATFORM    = sky130hs
 export VERILOG_FILES = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
 export SDC_FILE      = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/constraint.sdc
 
+export PLACE_DENSITY = 0.3
+
 export CORE_UTILIZATION = 45
 export PLACE_DENSITY_LB_ADDON = 0.2
 # many east pins cause global routing congestion
