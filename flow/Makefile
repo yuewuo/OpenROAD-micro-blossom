@@ -68,7 +68,7 @@
 # DESIGN_CONFIG=./designs/sky130hs/gcd/config.mk
 # DESIGN_CONFIG=./designs/sky130hs/ibex/config.mk
 # DESIGN_CONFIG=./designs/sky130hs/jpeg/config.mk
-DESIGN_CONFIG=./designs/sky130hs/riscv32i/config.mk
+# DESIGN_CONFIG=./designs/sky130hs/riscv32i/config.mk
 
 # DESIGN_CONFIG=./designs/asap7/aes/config.mk
 # DESIGN_CONFIG=./designs/asap7/ethmac/config.mk
@@ -80,6 +80,7 @@ DESIGN_CONFIG=./designs/sky130hs/riscv32i/config.mk
 # DESIGN_CONFIG=./designs/asap7/riscv32i/config.mk
 # DESIGN_CONFIG=./designs/asap7/swerv_wrapper/config.mk
 # DESIGN_CONFIG=./designs/asap7/uart/config.mk
+DESIGN_CONFIG=./designs/asap7/micro_blossom/config.mk
 
 # DESIGN_CONFIG=./designs/intel16/aes/config.mk
 # DESIGN_CONFIG=./designs/intel16/gcd/config.mk
