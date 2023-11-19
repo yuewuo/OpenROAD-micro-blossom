@@ -6,7 +6,9 @@ export SYNTH_HIERARCHICAL = 1
 export RTLMP_FLOW = True
 export MAX_UNGROUP_SIZE ?= 1000
 
-export VERILOG_FILES = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
+# export VERILOG_FILES = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
+export VERILOG_FILES = ../../micro-blossom/gen/example_phenomenological_rotated_d5/DualAccelerator.v
+
 export SDC_FILE      = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/constraint.sdc
 # export ADDITIONAL_LEFS = ./platforms/$(PLATFORM)/lef/fakeram7_256x32.lef
 # export ADDITIONAL_LIBS = ./platforms/$(PLATFORM)/lib/fakeram7_256x32.lib
